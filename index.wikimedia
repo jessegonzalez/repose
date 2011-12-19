@@ -1,0 +1,99 @@
+__TOC__
+
+==Section headings==
+
+''Headings'' organize your writing into sections.
+The Wiki software can automatically generate
+a table of contents from them.
+Start with 2 'equals' characters.
+
+===Subsection===
+
+Using more 'equals' characters creates a subsection.
+
+====A smaller subsection====
+
+Don't skip levels, like from two to four 'equals' characters.
+
+;A non-TOC subsection
+A semicolon at the start of a line is a way of making headings
+that don't appear in the [[WP:TOC|TOC]]. It actually bolds the
+entire line (see [[#Text formatting|below]]).
+
+'''Horizontal line'''
+Separating with a horizontal dividing line:
+:this is above it...
+----
+:...and this is below it.
+If you don't use a section header, you don't get a TOC entry.
+
+
+<div class="center" style="width:auto; margin-left:auto; margin-right:auto;">Centered text</div>
+
+
+* ''Unordered lists'' are easy to do:
+** Start every line with a star.
+*** More stars indicate a deeper level.
+**: Previous item continues.
+** A new line
+* in a list
+marks the end of the list.
+* Of course you can start again.
+
+
+# ''Numbered lists'' are:
+## Very organized
+## Easy to follow
+#: Previous item continues
+A new line marks the end of the list.
+# New numbering starts with 1.
+
+
+You can ''italicize text'' by putting 2
+apostrophes on each side.
+
+3 apostrophes will '''bold the text'''.
+
+5 apostrophes will '''bold''' and ''italicize''
+'''''the text'''''.
+
+You can also display text with {{Smallcaps|small caps}}, but you have to use a [[Help:Template|template]].
+
+;A semicolon at the start of a line bolds the entire line.
+Sometimes, it functions as a section header
+(see [[Help:Wiki markup#Sections|above]]).
+
+
+Computer code has a colored background
+and more stringent formatting. Suppose we
+want to define <code>int  main()</code>:
+
+<syntaxhighlight lang="cpp">#include <iostream>
+int main ( int argc,  char **argv ) {
+    std::cout << "Hello World!";
+    return 0;
+}</syntaxhighlight>
+
+
+A picture:
+[[File:wiki.png]]
+
+
+{| class="wikitable"
+|-
+! Header 1
+! Header 2
+! Header 3
+|-
+| row 1, cell 1
+| row 1, cell 2
+| row 1, cell 3
+|-
+| row 2, cell 1
+| row 2, cell 2
+| row 2, cell 3
+|-
+| row 3, cell 1
+| row 3, cell 2
+| row 3, cell 3
+|}
